@@ -1,0 +1,11 @@
+.venv/
+venv/
+data/
+images/
+labels/
+runs/
+*.zip
+__pycache__/
+*.pyc
+.DS_Store
+.env
