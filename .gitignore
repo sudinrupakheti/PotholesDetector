@@ -1,2 +1,8 @@
-images
-labels
+.venv/
+venv/
+__pycache__/
+runs/
+*.pyc
+images/
+labels/
+*.zip
