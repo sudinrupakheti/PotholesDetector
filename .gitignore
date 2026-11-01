@@ -1,8 +1,7 @@
-.venv/
-venv/
-__pycache__/
-runs/
-*.pyc
-images/
-labels/
+old_model/model_outputs/
+*.pt
 *.zip
+.venv/
+__pycache__/
+*.pyc
+project.txt
