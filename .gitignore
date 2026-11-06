@@ -1,3 +1,4 @@
+data/
 old_model/model_outputs/
 *.pt
 *.zip
@@ -5,3 +6,4 @@ old_model/model_outputs/
 __pycache__/
 *.pyc
 project.txt
+test_input_videos/
