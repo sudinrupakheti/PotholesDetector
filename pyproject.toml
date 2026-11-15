@@ -1,17 +1,21 @@
 [project]
 name = "potholesdetector"
 version = "0.1.0"
-description = ""
+description = "Pothole detection on dashcam footage with YOLOv8 + GPS geotagging"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "ultralytics>=8.4,<9",
     "opencv-python>=5.0",
+    "gradio>=6.3",
     "matplotlib>=3.11",
     "torch>=2.15,<2.16",
     "torchvision>=0.29,<0.30",
 ]
 
+# torch/torchvision come from PyTorch's CPU index so the shared environment
+# is small and works on machines without an NVIDIA GPU.
+# GPU users: see "Setup" in README.md for the CUDA switch.
 [tool.uv.sources]
 torch = [{ index = "pytorch-cpu" }]
 torchvision = [{ index = "pytorch-cpu" }]
