@@ -7,5 +7,5 @@ __pycache__/
 *.pyc
 project.txt
 test_input_videos/
-dashcam_with_gps/
+gps_footage/
 outputs/
